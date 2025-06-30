@@ -27,7 +27,7 @@ Transform complex datasets into actionable business insights using cutting-edge 
 | **Aspect** | **Details** |
 |------------|-------------|
 | **Module Code** | Level 7 - Core Module |
-| **Delivery Mode** | Lab-based workshops, lectures, supervised group projects, e-learning |
+| **Delivery Mode** | Interactive Jupyter notebooks, hands-on coding workshops, supervised group projects, e-learning |
 | **Assessment** | Applied Portfolio (40%) + Data Visualization Project (60%) |
 | **Prerequisites** | Basic programming knowledge, statistical fundamentals |
 | **Location** | Big Academy Riyadh Campus 🇸🇦 |
@@ -60,56 +60,64 @@ Upon successful completion, students will master:
 
 ## 📚 Course Structure
 
-### 🗓️ 8-Session Intensive Program
+### 🗓️ 8-Session Interactive Jupyter Notebook Program
 
 ```
 📅 Session 1: Foundations & Python Fundamentals
-├── 🐍 Python environment setup
-├── 📊 Data types and structures  
-├── ⚖️ Data ethics and GDPR compliance
-└── 🔍 Initial data exploration
+├── 📓 Interactive Jupyter setup and environment
+├── 🐍 Python fundamentals notebook
+├── 📊 Data types exploration (hands-on coding)
+├── ⚖️ Data ethics case study notebook
+└── 🔍 Live data exploration exercise
 
 📅 Session 2: Data Preparation & Cleaning
-├── 🧹 Data quality assessment
-├── 🔧 Handling missing/duplicate data
-├── 🔄 Data wrangling and transformation
-└── 📝 Documentation practices
+├── 📓 Data quality assessment notebook
+├── 🧹 Missing data handling (interactive exercises)
+├── 🔧 Data wrangling workshop notebook
+├── 🔄 Transformation techniques (step-by-step coding)
+└── 📝 Documentation best practices notebook
 
 📅 Session 3: Exploratory Data Analysis (EDA)
-├── 📈 Descriptive statistics
-├── 🎯 Correlation analysis
-├── 📊 Distribution visualization
-└── 🕒 Time series exploration
+├── 📓 Statistical analysis notebook
+├── 📈 Correlation analysis (interactive plots)
+├── 🎯 Distribution visualization workshop
+├── 📊 Advanced plotting techniques notebook
+└── 🕒 Time series exploration (hands-on)
 
 📅 Session 4: Statistical Analysis & Modeling
-├── 🧮 Hypothesis testing
-├── 📉 Regression analysis
-├── ⏱️ Time series modeling
-└── 📋 Model validation
+├── 📓 Hypothesis testing notebook
+├── 🧮 Interactive statistical tests
+├── 📉 Regression modeling workshop
+├── ⏱️ Time series analysis notebook
+└── 📋 Model validation exercises
 
 📅 Session 5: Power BI Fundamentals
-├── 🏗️ Data modeling principles
-├── 🔗 Power Query transformations
-├── 🧮 DAX fundamentals
-└── 📊 Basic visualizations
+├── 📓 Power BI integration with Python notebook
+├── 🏗️ Data modeling concepts (interactive demos)
+├── 🔗 Power Query from Jupyter
+├── 🧮 DAX fundamentals notebook
+└── 📊 Visualization comparison exercises
 
 📅 Session 6: Advanced Power BI & Dashboards
-├── 💻 Advanced DAX measures
-├── 🎨 Dashboard design principles
-├── 🖱️ Interactive elements
-└── 📱 Mobile responsiveness
+├── 📓 Advanced DAX in Jupyter environment
+├── 💻 Dashboard prototyping notebook
+├── 🎨 Design principles workshop
+├── 🖱️ Interactive elements coding
+└── 📱 Responsive design notebook
 
 📅 Session 7: Advanced Visualization & Storytelling
-├── 🗺️ Geospatial visualization
-├── 📖 Data storytelling techniques
-├── 👔 Executive communication
-└── 🎨 Advanced chart types
+├── 📓 Advanced matplotlib/seaborn notebook
+├── 🗺️ Geospatial visualization workshop
+├── 📖 Data storytelling framework notebook
+├── 👔 Executive presentation notebook templates
+└── 🎨 Custom visualization creation
 
 📅 Session 8: Applied Business Intelligence
-├── 🏭 Industry case studies
-├── 📊 Analytics narratives
-├── 💰 ROI analysis
-└── 🎯 Final project presentations
+├── 📓 Industry case study notebooks
+├── 🏭 Real-world data analysis workshops
+├── 📊 Business analytics narrative notebook
+├── 💰 ROI calculation exercises
+└── 🎯 Final project notebook templates
 ```
 
 ## 🎯 Assessment Framework
@@ -130,6 +138,15 @@ Upon successful completion, students will master:
 
 ## 🚀 Getting Started
 
+### 🎯 Interactive Learning Philosophy
+
+This course is built around **Jupyter notebooks** as the primary teaching tool, providing:
+- 📓 **Live Coding Sessions**: Learn by doing with interactive code cells
+- 🔄 **Immediate Feedback**: See results instantly as you code
+- 📚 **Integrated Documentation**: Theory and practice combined in one place
+- 🤝 **Collaborative Learning**: Share and review notebooks with peers
+- 💾 **Reproducible Analysis**: All work is documented and reusable
+
 ### 📋 Prerequisites
 
 - Basic programming knowledge (any language)
@@ -139,31 +156,69 @@ Upon successful completion, students will master:
 
 ### ⚙️ Setup Instructions
 
-1. **Python Environment**
+1. **Jupyter Notebook Environment** (Primary Teaching Tool)
    ```bash
-   # Install Python 3.8+
-   pip install pandas numpy matplotlib seaborn jupyter scikit-learn
+   # Install Python 3.8+ and essential packages
+   pip install jupyter pandas numpy matplotlib seaborn scikit-learn plotly
+   
+   # Launch Jupyter Notebook
+   jupyter notebook
+   
+   # Or use Jupyter Lab for enhanced experience
+   pip install jupyterlab
+   jupyter lab
    ```
 
 2. **Power BI Desktop**
    - Download from Microsoft official website
    - Ensure Windows 10/11 compatibility
+   - Integration with Jupyter through Python visuals
 
-3. **Data Files**
-   - Clone this repository
-   - Download sample datasets from course portal
+3. **Course Materials**
+   ```bash
+   # Clone this repository
+   git clone https://github.com/bigacademy/data-insights-visualization.git
+   cd data-insights-visualization
+   
+   # Start with Session 1 notebook
+   jupyter notebook jupyter-notebooks/session-01-foundations/
+   ```
+
+### 📓 How to Use the Notebooks
+
+1. **Start each session** by opening the corresponding notebook
+2. **Follow the interactive cells** - theory mixed with hands-on coding
+3. **Complete the exercises** embedded within each notebook
+4. **Save your work** - notebooks serve as your learning portfolio
+5. **Share and collaborate** using Git or notebook sharing platforms
 
 ## 📁 Repository Structure
 
 ```
 data-insights-visualization/
-├── 📁 datasets/              # Sample and project datasets
-├── 📁 notebooks/             # Jupyter notebooks for each session
-├── 📁 powerbi-files/         # Power BI templates and projects
-├── 📁 assignments/           # Assignment templates and rubrics
-├── 📁 resources/             # Additional learning resources
-├── 📁 session-materials/     # Lecture slides and handouts
-└── 📄 README.md              # This file
+├── 📁 jupyter-notebooks/        # Main teaching notebooks for each session
+│   ├── 📓 session-01-foundations/
+│   ├── 📓 session-02-data-prep/
+│   ├── 📓 session-03-eda/
+│   ├── 📓 session-04-statistical-analysis/
+│   ├── 📓 session-05-powerbi-fundamentals/
+│   ├── 📓 session-06-advanced-powerbi/
+│   ├── 📓 session-07-advanced-viz/
+│   └── 📓 session-08-business-intelligence/
+├── 📁 datasets/                 # Sample and project datasets
+│   ├── 📄 raw-data/
+│   ├── 📄 cleaned-data/
+│   └── 📄 case-studies/
+├── 📁 powerbi-files/            # Power BI templates and projects
+├── 📁 assignments/              # Assignment notebooks and rubrics
+│   ├── 📓 assignment-templates/
+│   └── 📄 grading-rubrics/
+├── 📁 resources/                # Additional learning resources
+│   ├── 📓 bonus-notebooks/
+│   ├── 📄 cheat-sheets/
+│   └── 🔗 external-links/
+├── 📁 solutions/                # Instructor solution notebooks
+└── 📄 README.md                 # This file
 ```
 
 ## 🎓 Career Pathways
